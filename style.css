@@ -28,16 +28,16 @@ transition: 0.4s all ease;
 
 
 nav{
-    position: absolute;
     top:110px;
-    right: 25px;
-    margin:0 auto;
+    right: 0;
 }
 
 .caixa{
-    position: relative;
     width: 940px;
-    right: 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .produtosl1{
     display: inline-block;
